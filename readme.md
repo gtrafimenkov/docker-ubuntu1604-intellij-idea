@@ -11,7 +11,7 @@ What's inside:
 By using this container you can try IntelliJ Idea without cluttering your system.  Here is how you can run it in a disposable container:
 
 ```
-docker run --rm -it --net host -v "$HOME/.Xauthority:/root/.Xauthority:rw" -v $(pwd):/project --env=DISPLAY gtrafimenkov/ubuntu1605-intellij-idea
+docker run --rm -it --net host -v "$HOME/.Xauthority:/root/.Xauthority:rw" -v $(pwd):/project --env=DISPLAY gtrafimenkov/ubuntu1604-intellij-idea
 ```
 
 ## How to get
